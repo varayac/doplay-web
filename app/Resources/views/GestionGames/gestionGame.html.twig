@@ -1,0 +1,16 @@
+{# Plantilla principal de nuestra APP #}
+{% extends 'base.html.twig' %}
+
+{# TITULO #}
+{% block title %}
+    Gestion  de Juegos
+{% endblock %}
+
+{# CONTENIDO BODY #}
+{% block contenido %}
+
+    {{ form_start(form) }}
+    {{ form_widget(form) }}
+    {{ form_end(form) }}
+
+{% endblock %}
